@@ -1,4 +1,4 @@
-# Decision: Cyberpunk Portfolio Direction
+# Decision: Post-Apocalyptic Portfolio Direction
 
 ## Status
 
@@ -6,16 +6,18 @@ Accepted
 
 ## Decision
 
-Rebuild the site as a single-page personal portfolio for full-stack developer Jonathan Maynard, using a restrained cyberpunk visual language and the established four-color palette:
+Rebuild the site as a single-page personal portfolio for full-stack developer Jonathan Maynard, using a refined post-apocalyptic visual language and a sandy palette with deep rose accents:
 
-- Background: `#0F3460`
-- Secondary: `#16537E`
-- Text: `#E8F4FD`
-- Accent: `#1ABC9C`
+- Background: `#181512`
+- Secondary: `#28211A`
+- Text: `#E8DDCB`
+- Sand accent: `#D8BD91`
+- Deep rose accent: `#A13D48`
+- Ember highlight: `#D98B55`
 
 ## Rationale
 
-The original AI-tool starter content did not represent the owner's professional identity. A résumé-led portfolio better serves prospective customers and business professionals. The existing blue-and-teal palette supports a distinctive cyberpunk treatment without replacing the owner's chosen colors.
+The original AI-tool starter content did not represent the owner's professional identity. A résumé-led portfolio better serves prospective customers and business professionals. Warm charcoal, parchment, sand, and rose provide the requested weathered post-apocalyptic direction.
 
 ## Consequences
 

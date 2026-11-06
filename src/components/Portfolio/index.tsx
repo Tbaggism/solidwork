@@ -63,7 +63,7 @@ function SectionHeading({
   title: string;
 }) {
   return (
-    <div className='section-heading'>
+    <div className='section-heading' data-reveal-stagger>
       <p className='eyebrow' data-reveal>
         <span className='eyebrow-index'>{index}</span>
         {eyebrow}
@@ -77,7 +77,7 @@ export default function Portfolio() {
   return (
     <main>
       <section className='hero shell' id='home'>
-        <div className='hero-copy'>
+        <div className='hero-copy' data-reveal-stagger>
           <p className='eyebrow' data-reveal>
             <span className='status-light' />
             FULL-STACK DEVELOPER <span className='eyebrow-divider'>/</span>{' '}
@@ -107,14 +107,14 @@ export default function Portfolio() {
 
         <aside className='hero-console' aria-label='Developer profile'>
           <div className='console-topline'>
-            <span>PROFILE / 001</span>
+            <span>FIELD LOG / 001</span>
             <span className='console-lights' aria-hidden='true'>
               <i />
               <i />
               <i />
             </span>
           </div>
-          <div className='console-body'>
+          <div className='console-body' data-reveal-stagger>
             <p className='console-comment' data-reveal>
               <span aria-hidden='true'>{'// '}</span> a little context
             </p>
@@ -148,12 +148,12 @@ export default function Portfolio() {
           aria-label='Scroll to selected work'
         >
           <span />
-          SCROLL TO EXPLORE
+          FOLLOW THE TRAIL
         </a>
       </section>
 
       <section className='highlight-band' aria-label='Career highlights'>
-        <div className='shell highlight-grid'>
+        <div className='shell highlight-grid' data-reveal-stagger>
           {highlights.map((item, index) => (
             <div className='highlight' data-reveal key={item.label}>
               <span className='highlight-index'>0{index + 1}</span>
@@ -174,8 +174,8 @@ export default function Portfolio() {
           <div className='project-visual' aria-hidden='true'>
             <div className='project-window'>
               <div className='project-window-bar'>
-                <span>JM / PROJECT 001</span>
-                <span>PRODUCT UI</span>
+                <span>JM / FIELD BUILD 001</span>
+                <span>DIGITAL EXPERIENCE</span>
               </div>
               <div className='project-window-content'>
                 <span className='project-kicker'>DIGITAL EXPERIENCE</span>
@@ -221,7 +221,7 @@ export default function Portfolio() {
             eyebrow='Experience'
             title='A foundation built on keeping things running.'
           />
-          <div className='experience-list'>
+          <div className='experience-list' data-reveal-stagger>
             {experience.map((role) => (
               <article
                 className='experience-item'
@@ -274,9 +274,9 @@ export default function Portfolio() {
             <span>FIELD NOTES / CAPABILITIES</span>
             <span>08 ITEMS</span>
           </div>
-          <ul className='capability-list'>
+          <ul className='capability-list' data-reveal-stagger>
             {capabilities.map((capability, index) => (
-              <li key={capability}>
+              <li data-reveal key={capability}>
                 <span>0{index + 1}</span>
                 {capability}
                 <span className='capability-indicator' aria-hidden='true'>
@@ -292,10 +292,10 @@ export default function Portfolio() {
       </section>
 
       <section className='contact-section' id='contact'>
-        <div className='shell contact-content'>
+        <div className='shell contact-content' data-reveal-stagger>
           <p className='eyebrow' data-reveal>
             <span className='eyebrow-index'>04</span>
-            THE NEXT TRANSMISSION
+            THE NEXT WAYPOINT
           </p>
           <h2 data-reveal>
             Have a good problem
